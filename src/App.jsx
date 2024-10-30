@@ -1,5 +1,11 @@
+import Typography from "@mui/material/Typography";
+
 function App() {
-  return <h1>Hello React!</h1>;
+  return (
+    <Typography variant="h1" component="h2">
+      Hallo React
+    </Typography>
+  );
 }
 
 export default App;
